@@ -1,0 +1,9 @@
+@media (max-width: 600px) {
+  #navbar a {
+    display: inline;
+  }
+}
+
+#navbar a {
+  display: block;
+}
