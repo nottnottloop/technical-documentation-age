@@ -68,8 +68,8 @@ header {
 #main-doc p, #main-doc ul {
   font-size: 0.97rem;
   line-height: 1.4rem;
-  margin-left: 15px;
-  margin-right: 30px;
+  margin-left: 10px;
+  margin-right: 40px;
 }
 
 #main-doc ul li {
@@ -78,12 +78,24 @@ header {
 }
 
 @media (max-width: 820px) {
-  .navbox {
-    width: 10px;
+  .nav-box {
+    position: relative;
+    display: inline;
+    width: 100%;
+    border: 0;
+  }
+
+  .tabs {
+    position: relative;
+    top: 20px;
+    width: auto;
+    height: 200px;
+    border: 2px solid #4d4e53;
   }
 
   #navbar header {
-    margin-left: 300px;
+    text-align: center;
+    margin: 12px 0 0 0;
   }
 
   #main-doc {
