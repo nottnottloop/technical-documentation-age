@@ -19,11 +19,12 @@ nav {
   border-top: 0;
   border-bottom: 0;
   border-left: 0;
+
+  display: grid;
+  grid-template-rows: 65px 1fr;
 }
 
 .tabs {
-  width: 100%;
-  height: 90%;
   overflow-y: auto;
 }
 
@@ -61,12 +62,12 @@ header {
   font-size: 1.8rem;
   margin-top: 12px;
   margin-bottom: 12px;
+  overflow-y: hidden;
 }
 
 nav header {
   margin-left: 30px;
   margin-bottom: 18px;
-  height: 10%;
 }
 
 #main-doc p, #main-doc ul {
